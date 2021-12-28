@@ -1,2 +1,2 @@
-# take-a-screenshot
-take-a-screenshot.org but updated and with extras
+# take-a-screenshot.org but updated and with extras
+"not a screensaver website"
