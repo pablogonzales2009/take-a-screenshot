@@ -1,0 +1,54 @@
+body {
+        background-color: #171717;
+        color: white;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-size: 25px;
+        letter-spacing: -1.4px;
+        word-spacing: 2px;
+    }
+
+    html {
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    
+    /* Optional: show position indicator in red */
+    ::-webkit-scrollbar-thumb {
+        background: #FF0000;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+    
+    /* unvisited link */
+    a:link {
+      color: gray;
+    }
+
+    /* visited link */
+    a:visited {
+      color: whitesmoke;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: white;
+    }
+
+    /* selected link */
+    a:active {
+      color: gray;
+    }
+    
+    $(document).ready(function() {
+    if (!window.matchMedia)
+        return;
